@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi lista de tareas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+  <h2>Lista de Tareas</h2>
+  <input type="text" id="myInput" placeholder="Tarea...">
+  <span onclick="newElement()" class="addBtn">Agregar</span>
+</div>
+
+<ul id="myUL">
+  <li>Ir al gimasio<span class="close">×</span></li>
+  <li class="checked">Pagar facturas<span class="close">×</span></li>
+  <li>Reunion con Jorge<span class="close">×</span></li>
+  <li>Comprar Huevo<span class="close">×</span></li>
+  <li>Leer un libro de Jorge Luis Borges<span class="close">×</span></li>
+  <li>Organizar la oficina<span class="close">×</span></li>
+</ul>
+
+<script src="script.js"></script>
+</body>
+</html>
